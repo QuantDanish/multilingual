@@ -1,0 +1,35 @@
+{
+	"name": "simple-sample",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open --hot --https",
+		"build": "webpack --mode production",
+		"server": "http-server ./dist -o -g"
+	},
+	"dependencies": {
+		"i18next": "^19.7.0",
+		"i18next-browser-languagedetector": "^6.0.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-i18next": "^11.7.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.0",
+		"@babel/preset-env": "^7.11.0",
+		"@babel/preset-react": "^7.10.4",
+		"babel-loader": "^8.1.0",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^4.1.1",
+		"file-loader": "^6.0.0",
+		"html-webpack-plugin": "^4.3.0",
+		"http-server": "^0.12.3",
+		"mini-css-extract-plugin": "^0.9.0",
+		"sass": "^1.26.10",
+		"sass-loader": "^9.0.2",
+		"url-loader": "^4.1.0",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	}
+}

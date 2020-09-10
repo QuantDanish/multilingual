@@ -1,0 +1,29 @@
+#root {
+	padding: 0 1rem;
+}
+
+@keyframes spin {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+button {
+	margin: 1rem;
+	padding: 0.5rem 1.2rem;
+	font-size: 1rem;
+	border-radius: 0.3rem;
+	border: 1px solid #cecece;
+	background: #fff;
+	cursor: pointer;
+}
+
+button:hover,
+button.active {
+	color: #fff;
+	background: #0d6de8d6;
+	border-color: #0d6de8;
+}
